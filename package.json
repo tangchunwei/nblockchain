@@ -1,0 +1,19 @@
+{
+  "name": "nblockchain",
+  "version": "1.0.0",
+  "description": "基于node实现的简易区块链",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangchunwei/nblockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangchunwei/nblockchain/issues"
+  },
+  "homepage": "https://github.com/tangchunwei/nblockchain#readme"
+}
