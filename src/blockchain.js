@@ -26,6 +26,7 @@ class Blockchain {
 		//校验区块是否合法
 		if (this.isValidBlock(newBlock) && this.isValidChain(this.blockchain)) {
 			this.blockchain.push(newBlock);
+      return newBlock;
 		} else {
 			console.log('区块不合法');
 		}
@@ -96,10 +97,6 @@ class Blockchain {
   }
 
 }
-let bc = new Blockchain();
-bc.mine();
-bc.blockchain[1].hash = "999";
-bc.mine();
-bc.mine();
-bc.mine();
-console.log(bc.blockchain);
+
+
+module.exports = Blockchain;
